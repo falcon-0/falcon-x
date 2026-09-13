@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+}
+
+.card{
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border:1px solid blue;
+    border-radius:5px;
+    
+}
+.price{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.btn{
+    width: 100%;
+    padding:5px;
+    border-style:solid;
+    border-width: 1.5px;
+    
+    
+}
+.btn:hover{
+    background-color: #007bff;
+    color: white;
+    border-color: #09dd85;
+    
+}
